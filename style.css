@@ -1,0 +1,11 @@
+﻿#logo
+{
+	font-size:large;
+}
+
+.logoDiv
+{
+	width: 128px; height: 128px; z-index: 100; float: left; display: inline; position: relative;
+	border: none;
+}
+

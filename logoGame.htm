@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head>
+    <title>logo</title>
+    <script src="jquery-1.9.1.min.js" type="text/javascript" language="javascript"></script>
+	<script src="script.js" type="text/javascript" language="javascript"></script>
+	<script src="bootstrap.min.js"></script>
+	<script src="bootstrap-colorselector.js"></script>
+    <link rel="Stylesheet" type="text/css" href="style.css" />
+	<link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="bootstrap-colorselector.css" />
+</head>
+<body>
+    <div id="page">        
+        <div id="inputs" class="well" style="height: 150px;">
+			<div id="form1" class="span5">
+				<form class="form-horizontal">
+					<div class="control-group">
+						<label class="control-label" for="select3">Компания</label>
+						<div class="controls">
+							<select id="select3">
+								<option value="">Нет</option>
+								<option value="Apple">Apple</option>
+								<option value="Google">Google</option>
+								<option value="Microsoft">Microsoft</option>
+								<option value="Microsoft">Red Hat</option>
+							</select>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="select7">Эмблема</label>
+						<div class="controls">
+							<select id="select7">
+								<option value="no">Нет</option>
+								<option value="apple">Яблоко</option>
+								<option value="windows">Окошки</option>
+								<option value="android">Робот</option>
+								<option value="linux">Пингвин</option>
+								<option value="mushroom">Грибочек</option>
+							</select>
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="select8">Кол-во</label>
+						<div class="controls">
+							<select id="select8">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+								<option value="7">7</option>
+								<option value="8">8</option>
+								<option value="9">9</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+			<div id="form2" class="span5" style="display: inline;">
+				<form class="form-horizontal">
+					
+					<div class="control-group">
+						<label class="control-label" for="select9">Цвет эмблемы</label>
+						<div class="controls">
+							<select id="select9">
+								<option value="original" data-color="white" selected="selected" ></option>
+								<option value="black" data-color="black" ></option>
+								<option value="red" data-color="#FF6863" ></option>
+								<option value="green" data-color="#A4C739" ></option>
+								<option value="yellow" data-color="#FFD800" ></option>
+								<option value="blue" data-color="#04AEDA" ></option>
+							</select>
+						</div>
+					</div>				
+					<div class="control-group">
+						<label class="control-label" for="select1">Цвет фона</label>
+						<div class="controls">
+							<input id="select1" type="color" value="#ffffff"/> 
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="select2">Узор</label>
+						<div class="controls">
+							<select id="select2">
+								<option value="No">Нет</option>                            
+								<option value="pics/circle_black.png">Черный кружок</option>
+								<option value="pics/Circle_Grey.png">Серый кружок</option>
+								<option value="pics/heart.png">Черное сердечко</option>
+								<option value="pics/heart_red.png">Красное сердечко</option>
+								<option value="pics/rhombus.png">Ромб</option>
+								<option value="pics/square_shape.png">Квадрат</option>							
+								<option value="pics/apple_small_1.png">Яблоко чёрное</option>
+								<option value="pics/apple_small_2.png">Яблоко серое</option>
+								<option value="pics/apple_small_3.png">Яблоко металл</option>
+								<option value="pics/android_small_1.png">Робот</option>
+								<option value="pics/android_small_2.png">Робот яркий</option>
+								<option value="pics/windows_small_1.png">Окошки серые</option>
+								<option value="pics/windows_small_2.png">Окошки в квадрате</option>
+								<option value="pics/windows_small_3.png">Окошки в круге</option>
+								<option value="pics/twitter.png">Птичка</option>
+								<option value="pics/twitter1.png">Серая птичка</option>
+								<option value="pics/penguin.png">Пингвин</option>
+							</select>
+						</div>
+					</div>
+				</form>				
+			</div>
+			<div class="span5" style="display: inline;">
+			    <form class="form-horizontal">
+				    <div class="control-group">
+						<label class="control-label" for="select4">Размер текста</label>
+						<div class="controls">
+							<select id="select4">
+								<option value="100%">Мелкий</option>
+								<option value="250%">Средний</option>
+								<option value="400%">Крупный</option>
+							</select>
+						</div>
+					</div>					
+					<div class="control-group">
+						<label class="control-label" for="select6">Цвет текста</label>
+						<div class="controls">
+							<input id="select6" type="color" />
+						</div>
+					</div>
+					<div class="control-group">
+						<label class="control-label" for="select5">Шрифт</label>
+						<div class="controls">
+							<select id="select5">
+								<option value=""></option>
+								<option value="Verdana">Verdana</option>
+								<option value="Georgia">Georgia</option>
+								<option value="Geneva">Geneva</option>
+								<option value="Arial">Arial</option>
+								<option value="Times New Roman">Times New Roman</option>
+							</select>
+						</div>
+					</div>
+				</form>
+			</div>
+        </div>        
+    </div>    
+    <div id="logo" style="margin-left: auto; margin-right: auto; width: 384px; height: 384px; border: 1px solid black;">        
+        <img id="d1" class="logoDiv"></img>
+        <img id="d2" class="logoDiv"></img>   
+        <img id="d3" class="logoDiv"></img>
+        <img id="d4" class="logoDiv"></img>
+        <img id="d5" class="logoDiv"></img>
+        <img id="d6" class="logoDiv"></img>
+        <img id="d7" class="logoDiv"></img>
+        <img id="d8" class="logoDiv"></img>
+        <img id="d9" class="logoDiv"></img>
+    </div>
+    <div id="companyName"  style="margin-left: auto; margin-right: auto; text-align: center; margin-top: 15px; font: bold"></div>       
+</body>
+</html>
